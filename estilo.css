@@ -21,7 +21,7 @@ abbr[title] {
 
 body {
   	color: white;
-  	font-family: 'Open Sans', Frutiger, "Frutiger Linotype", Univers, Calibri, Helvetica, Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
   	font-size: 16px;
   	line-height: 2em;
     margin:0;    
@@ -31,7 +31,6 @@ body {
 }
 
 .home {
-  font-family: 'Raleway', sans-serif;
   background-image: url(stars.png);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -47,7 +46,6 @@ body {
 #intro {
   margin: auto;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
   /*height: 500px;*/
   padding-top: 200px;
 }
@@ -69,7 +67,7 @@ body {
   z-index: 10;
 }
 
-#logofixa  {
+#logoheader  {
   /*margin-top: 18px;*/
 
   font-size: 30px;
@@ -84,15 +82,14 @@ body {
     /*padding-top: 200px;*/
 }
 
-#apresenta{
+#logo-principal{
    /*padding-top: 200px; */
   float: left;
   width: 40%;
-  font-family: 'Raleway', sans-serif;
   
 }
 
-#descricao{
+#mini-desc{
     /*padding-top: 300px;*/
   text-align: right;
 /*  width: 30%;
@@ -256,31 +253,21 @@ abbr[title] {
 .back { transform: rotateY(180deg); }
 
 
-#einsteinCitacao{
-/*    background: #29a0cc;
-*/
-}
 #einsteinFoto{
   background: url(einstein.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
-#g9a2{
-/*  background: #69b4df;
-  height: inherit;
-*/}
 
 #t_autor{
   float: left;
   width: 40%;
-  padding: 10px;
+  padding: 1%;
   background: #4986c7;
   height: inherit;
 }
 
-#divazul{
-}
 
 #ship{
   position: absolute;
@@ -311,111 +298,148 @@ abbr[title] {
 }
 
 
-.imagem1 img{
-	width: 250px;
-	height: 250px;
-	margin: 60px;
-	margin-top: 90px;
-	margin-right:150px;
-	z-index: 1;
-
-}
-
-.imagem2 img{
-	width: 500px;
-	height: 480px;
-/*	margin-left:40px;
-	margin-top:10px;*/
-	margin-left: -10px;
-	margin-top:-30px;
-	margin-bottom: 100px;
-	margin-right:150px;
-	z-index: -2;
-	position: absolute;
-	-webkit-animation: rodaroda 5s linear infinite alternate;
-}
-
-.participation{
+#projects{
 	clear:both;
 	margin-top:20px;
-	border-top: 5px solid #dd3b2a;
+	border-top: 5px solid #67BAF5;
 }
 
-.participation .p1{
-	background: #FFFF00;
-	float:left;
+#projects a{
+  color: #7AB317;
+
+}
+
+#projects img{
+  border-color:  #4986c7;
+  border-width:  4px;
+  border-style: solid;
+  height: 150px;
+  width: 150px;
+}
+
+#projects .proj{
 	text-align: justify;
-  	margin: 10px;
-  	max-width: 420px;
-  	padding: 15px;
-  	position: relative;
-  	height:420px;
+  width: 56%;
+  padding: 1%;
+  float: right;
+}
+
+#projects .proj-footer{
+  border-top-color:  white;
+  border-top-width:  4px;
+  border-top-style: solid;
+}
+
+.proj-t{
+  font-size: 36px;
+  font-weight: bolder;
+  margin-top: 40px;
+  text-align: left;
+  background: #67BAF5;
+}
+
+.p1{
+  background: #67BAF5;
+}
+
+.p2{
+  background: #9ED7FF;
+  color: #F1F1F1;
+}
+
+.p3{
+  background: #BBE3FF;
+  color: #7E7E7E;
+
+}
+
+.p4{
+  background: #D1ECFF;
+  color: #7E7E7E;
+
+}
+
+.p5{
+  background: #EDF7FF;
+  color: #505050;
+
+}
+
+#p1-tetris{
+  position: absolute;
+  left: 400px;
+  top: 2500px;
+  height:190px;
+  width: 135px;
 
 
 }
 
-.participation .p2{
-	background: #dd3b2a;
-	float:left;
-	text-align: justify;
-  	margin: 10px;
-  	max-width: 420px;
-  	padding: 15px;
-  	position: relative;  	
-  	height:420px;
+#p2-tetris{
+  position: absolute;
+  left:70px;
+  height:170px;
+  width: 125px;
+  top: 2700px;
 
 }
 
-.participation .p3{
-	background: #FFFF00;
-	float:left;
-	text-align: justify;
-  	margin: 10px;
-  	max-width: 420px;
-  	padding: 15px;
-  	position: relative;
-  	height:420px;
+#p3-tetris{
+  position: absolute;
+  height:170px;
+  width: 125px;
+  left:300px;
+  top: 2000px;
 
 }
 
-.participation .p4{
-	background: #dd3b2a;
-	clear:both;
-	float:left;
-	text-align: justify;
-  	margin: 10px;
-  	max-width: 420px;
-  	padding: 15px;
-  	position: relative;
-  	height:420px;
-
+#p4-tetris{
+  position: absolute;
+  height:170px;
+  width: 125px;
+  left:100px;
+  top: 2300px;
 
 }
 
-.participation .p5{
-	background: #FFFF00;	
-	float:left;
-	text-align: justify;
-  	margin: 10px;
-  	max-width: 420px;
-  	padding: 15px;
-  	position: relative;
-  	height:420px;
+#base-tetris{
+  position: absolute;
+  left:0px;
+  top: 3095px;
+  width: 42%;
 
 }
 
-.participation .p6{
-	background: #dd3b2a;	
-	float:left;
-	text-align: justify;
-  	margin: 10px;
-  	max-width: 420px;
-  	padding: 15px;
-  	position: relative;
-  	height:420px;
+
+#vitae{
+  clear: both;
+  margin-top:20px;
+  border-top: 5px solid #EDF7FF;
 
 }
 
+#vitae-content{
+  width: 40%;
+  padding: 1%;
+  background: white;
+  color: black;
+}
+
+#vitae h3{
+
+  margin-top: 40px;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.vitae-footer{
+
+  border-top: 5px solid #7AB317;
+}
+
+#vitae a{
+  color: #7AB317;
+}
 
 
 /*.imagem2{
