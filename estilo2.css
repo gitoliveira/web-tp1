@@ -1,0 +1,344 @@
+'ralewayextrabold', Verdana, Helvetica, Arial, sans-
+
+
+@import url('http://fonts.googleapis.com/css?family=Arvo:700|Open+Sans:400italic,400');
+
+@import url('http://fast.fonts.com/cssapi/95b765fd-fae4-4f1b-8155-d8244914a5c6.css');
+
+aside,
+footer,
+header,
+nav,
+section {
+  	display: block; 
+}
+[hidden] {
+  	display: none;
+}
+
+html {
+  	font-family: sans-serif;
+  	-ms-text-size-adjust: 100%;
+  	-webkit-text-size-adjust: 100%;
+}
+
+abbr[title] {
+  	border-bottom: 2px dotted;
+}
+
+body {
+  	color: #0f2a36;
+  	font-family: 'Open Sans', Frutiger, "Frutiger Linotype", Univers, Calibri, Helvetica, Arial, sans-serif;
+  	font-size: 16px;
+  	line-height: 1.25em;
+}
+
+h1 {
+  	font-family: 'Adelle W01 Bold', 'Arvo', Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  	font-size: 91px;
+  	font-weight: 500;
+}
+h2 {
+  	color: #dd3b2a;
+  	font-size: 22px;
+  	font-style: italic;
+  	font-weight: 400;
+}
+h3 {
+  	color: #dd3b2a;
+  	font-family: 'Adelle W01 Bold', 'Arvo', Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  	font-size: 40px;
+  	font-weight: 500;
+  	line-height: 1.25em;
+  	margin: 0.5em 0;
+}
+h4 {
+  	font-size: 22px;
+  	font-style: italic;
+  	font-weight: 400;
+}
+
+h5 {
+	color: #dd3b2a;
+  	font-size: 18px;
+  	font-style: italic;
+  	font-weight: 400;
+}
+
+h3 + p {
+	margin-top: 0;
+}
+
+h4 + p{
+	margin-top: 0;
+}
+
+h5 + p{
+	margin-top: 0;
+}
+abbr[title] {
+	border: none;
+}
+.preamble abbr,
+.supporting div abbr,
+.requirements abbr {
+ 	border-bottom: 1px dotted #30e0ad;
+}
+.preamble abbr:hover:after,
+.supporting div abbr:hover:after,
+.requirements abbr:hover:after {
+  	content: ' (' attr(title) ')';
+  	text-shadow: 0 0 1em #dd3b2a;
+}
+
+header {
+  margin: 0 auto;
+  max-width: 1040px;
+  position: relative;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+header h1 {
+  border-top: 4px solid white;
+  color: #00374f;
+  display: inline-block;
+  min-height: 70px;
+  margin: 55px auto 0;
+  padding: 0 10px;
+  z-index: 2;
+}
+header h1:after {
+  background-color: #dd3b2a;
+  content: '';
+  height: 2px;
+  left: 0;
+  margin-top: -3px;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+header h2 {
+  text-align: right;
+  max-width: 695px;
+  margin: -10px auto 0;
+  width: 100%;
+}
+.intro {
+  background: #FFFF00;
+  background: -moz-linear-gradient(top, #ffffff 0%, #FFFF00 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #FFFF00));
+  background: -webkit-linear-gradient(top, #ffffff 0%, #FFFF00 100%);
+  background: -o-linear-gradient(top, #ffffff 0%, #FFFF00 100%);
+  background: -ms-linear-gradient(top, #ffffff 0%, #FFFF00 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #FFFF00 100%);
+  float: left;
+  height: 280px;
+  width: 100%;
+}
+
+.summary {
+	text-align: right;
+	max-width: 230px;
+	margin-top: 30px;
+	margin-left: 830px;
+	width: 100%;
+}
+
+
+.menu {
+	background-color: rgba(255, 255, 255, 0.9);
+ 	border-top: 5px solid #dd3b2a;
+	border-bottom: 5px solid #00374f;
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+.menu ul{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+}
+.menu li{
+	display: inline;
+}
+
+.menu ul li a{
+	background-color: rgba(255, 255, 255, 0.9);
+  	color: #00374f;
+  	min-height: 22px;
+  	margin: 12px;
+  	padding: 0 90px;
+  	z-index: 2;
+ 	font-size: 22px;
+ 	float: left;
+    width: 10%;
+    text-decoration: none;
+    border-right: 1px solid white;	
+} 
+
+.menu ul li a:hover {
+	color:#dd3b2a;
+}
+
+.explanation {
+  clear:left;
+  margin: 30px;
+  margin-bottom: 50px;
+
+}
+
+.explanation div{
+
+  float:right;
+  text-align: justify;
+  margin: 10px;
+  max-width: 700px;
+  padding: 15px;
+  position: relative;
+
+}
+
+.imagem1 img{
+	width: 250px;
+	height: 250px;
+	margin: 60px;
+	margin-top: 90px;
+	margin-right:150px;
+	z-index: 1;
+
+}
+
+.imagem2 img{
+	width: 500px;
+	height: 480px;
+/*	margin-left:40px;
+	margin-top:10px;*/
+	margin-left: -10px;
+	margin-top:-30px;
+	margin-bottom: 100px;
+	margin-right:150px;
+	z-index: -2;
+	position: absolute;
+	-webkit-animation: rodaroda 5s linear infinite alternate;
+}
+
+.participation{
+	clear:both;
+	margin-top:20px;
+	border-top: 5px solid #dd3b2a;
+}
+
+.participation .p1{
+	background: #FFFF00;
+	float:left;
+	text-align: justify;
+  	margin: 10px;
+  	max-width: 420px;
+  	padding: 15px;
+  	position: relative;
+  	height:420px;
+
+
+}
+
+.participation .p2{
+	background: #dd3b2a;
+	float:left;
+	text-align: justify;
+  	margin: 10px;
+  	max-width: 420px;
+  	padding: 15px;
+  	position: relative;  	
+  	height:420px;
+
+}
+
+.participation .p3{
+	background: #FFFF00;
+	float:left;
+	text-align: justify;
+  	margin: 10px;
+  	max-width: 420px;
+  	padding: 15px;
+  	position: relative;
+  	height:420px;
+
+}
+
+.participation .p4{
+	background: #dd3b2a;
+	clear:both;
+	float:left;
+	text-align: justify;
+  	margin: 10px;
+  	max-width: 420px;
+  	padding: 15px;
+  	position: relative;
+  	height:420px;
+
+
+}
+
+.participation .p5{
+	background: #FFFF00;	
+	float:left;
+	text-align: justify;
+  	margin: 10px;
+  	max-width: 420px;
+  	padding: 15px;
+  	position: relative;
+  	height:420px;
+
+}
+
+.participation .p6{
+	background: #dd3b2a;	
+	float:left;
+	text-align: justify;
+  	margin: 10px;
+  	max-width: 420px;
+  	padding: 15px;
+  	position: relative;
+  	height:420px;
+
+}
+
+
+.benefits {
+	clear:both;
+	border-top: 5px solid #dd3b2a;
+
+}
+	@-webkit-keyframes rodaroda {
+		from {
+			-webkit-transform:rotate(0deg);
+		}
+		to {
+			-webkit-transform:rotate(360deg);
+		}
+	}
+
+/*.imagem2{
+    -webkit-transform: rotate(15deg) scale(1.25, 0.5);
+    -moz-transform: rotate(15deg) scale(1.25, 0.5);
+    -ms-transform: rotate(15deg) scale(1.25, 0.5);
+    transform: rotate(15deg) scale(1.25, 0.5);
+
+	-moz-transform: scale(1.0) rotate(360deg) translateX(1px) translateY(1px) skewX(1deg) skewY(1deg);
+	-webkit-transform: scale(1.1) rotate(360deg) translateX(1px) translateY(1px) skewX(1deg) skewY(1deg);
+	-o-transform: scale(1.1) rotate(360deg) translateX(1px) translateY(1px) skewX(1deg) skewY(1deg);
+	-ms-transform: scale(1.1) rotate(360deg) translateX(1px) translateY(1px) skewX(1deg) skewY(1deg);
+	transform: scale(1.1) rotate(360deg) translateX(1px) translateY(1px) skewX(1deg) skewY(1deg);
+}
+*/
+
+
+
+
+
