@@ -410,7 +410,7 @@ abbr[title] {
   left:0px;
   top: 3095px;
   width: 42%;
-  max-height: 440px;
+  max-height: 434px;
 
 }
 
@@ -466,9 +466,54 @@ abbr[title] {
   top: 3700px;
 }
 
+#contato{
+  clear:both;
+  border-top: 5px solid #7AB317;
+}
+
+#mapa{
+  margin: auto;
+  width: 80%; 
+  height: 500px; 
+  border: 3px solid white;
+}
+
+#right-map{
+  width: 56%;
+  float: right;
+  background: #7AB317;
+  padding: 1%;
+}
+
+#left-map{
+  border: 3px solid #7AB317;
+  padding: 4%;
+  width: 30%;
+  margin: 1%;
+
+}
+.parallax-div{
+  z-index: -2;
+}
+
+footer{
+  clear:both;
+  padding: 10px 5px;
+  height: 30px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.85;
+  z-index: 10;
+  text-align: center;
+  border-top: 3px solid white;
+
+}
 
 
-
+#myModal{
+  /*width: 500px;
+  height: 500px;
+*/}
 
 /*.imagem2{
     -webkit-transform: rotate(15deg) scale(1.25, 0.5);

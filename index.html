@@ -9,6 +9,8 @@
 	<!-- <link rel="stylesheet" href="bootstrap.css" /> -->
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
 	<meta name="author" content="Igor Oliveira">
+	<script src="script.js"></script>
+
 
 
 	<!--[if lt IE 9]>
@@ -26,8 +28,8 @@
 		<nav class ="" id="menu">
 			<ul class="">
 				<li> <a href="#inicial"> início </a> </li>
-				<li> <a href="#projetos"> projetos </a> </li>
-				<li> <a href="#curriculo"> currículo </a> </li>
+				<li> <a href="#projects"> projetos </a> </li>
+				<li> <a href="#vitae"> currículo </a> </li>
 				<li> <a href="#contato"> contato </a> </li>
 			</ul>
 		</nav>
@@ -91,7 +93,7 @@
 					<p>	
 						O alto atrativo turístico de um evento de copa do mundo faz com que países sedes recebam uma grande quantidade de visitantes durante a competição. Como os turistas realizam voos internos entre as cidades do evento para presenciar os jogos e o custo de passagens aéreas é muitas vezes proporcional à distância percorrida em cada trecho, uma logística de rota a ser percorrida pode reduzir drasticamente o custo da viagem. Tendo isso em vista foi realizada uma abordagem com utilização do Algoritmo de Colônia de Formigas ao problema descrito, de forma a permitir a escolha de uma rota menos custosa e que possa fornecer ao turista condição de aproveitar o evento.
 					</p>
-					<img src="aco.png">
+					<button onclick="abrirModal()"><img src="aco.png" id ="aco"></button>
 
 					<div class="proj-footer">
 						Acesse o conteúdo completo<a href="aco - Artigo.pdf"> nesse link</a>
@@ -120,7 +122,7 @@
 					<h4>Obtenção do valor da resistividade de um fio metálico</h4>
 					<p>  Um projeto de física experimental que apresenta um método empírico para se calcular a resistividade de um fio metálico fazendo uso de um ohmímetro, uma régua e o fio propriamente dito.
 					</p>
-					<img src="fio.png">
+					<button onclick="abrirModal()"><img src="fio.png" id="fio"></button>
 					<div class="proj-footer">
 						Acesse o conteúdo completo<a href="fio.pdf"> nesse link</a>
 					</div>				
@@ -184,19 +186,41 @@
 		</div>
 
 		<div class="requirements" id="contato" role="article">
-			<h3>Accio Igor</h3>
-			<p>
-			<p>
+			<div id="right-map">
+				<h3>Onde me encontrar</h3>
+				<div id = "mapa">
+
+				</div>
+				<p>
+				<p>
+			</div>
+			<div id="left-map">
+				<p> Endereço Profissional:<br>
+					Axxiom Soluções Tecnológicas,<br>
+					Rua dos Inconfidentes, 1050, Funcionários<br>
+					Belo Horizonte - MG </p>
+				<p> Endereço Residencial:<br>
+					Rua Aimorés, 2550, Santo Agostinho<br>
+					Belo Horizonte- MG  </p>
+				<p> Telefones para contato:<br>
+					Cel: (31) 8813-0924 </p>
+				<p> E-mail:<br>
+					igor.lessa08@gmail.com </p>
+
+
+			</div>
 		</div>
 
 		<footer>
-
+			Página desenvolvida por Igor de Oliveira. Todos os direitos reservados.
 		</footer>
 
 	</div>
 	</div>
 
 <!-- </div> -->
-
+	<dialog id="myModal">
+		<img src="aco.png">
+	</dialog>
 </body>
 </html>
