@@ -12,7 +12,6 @@ html {
   	font-family: sans-serif;
   	-ms-text-size-adjust: 100%;
   	-webkit-text-size-adjust: 100%;    
-    max-width: 1440px;  
 
 }
 
@@ -28,6 +27,8 @@ body {
     margin:0;    
     width: 100%;
     background-color: black;
+    max-width: 1440px;  
+
 
 }
 
@@ -464,6 +465,7 @@ abbr[title] {
   right: 100px;
   top: 3700px;
 }
+
 
 
 
