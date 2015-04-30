@@ -11,7 +11,8 @@
 html {
   	font-family: sans-serif;
   	-ms-text-size-adjust: 100%;
-  	-webkit-text-size-adjust: 100%;      
+  	-webkit-text-size-adjust: 100%;    
+    max-width: 1440px;  
 
 }
 
@@ -148,6 +149,7 @@ body {
 } 
 #header a{
   text-decoration: none;
+  color: white;
 }
 a:hover{
   text-decoration: underline;
@@ -407,6 +409,7 @@ abbr[title] {
   left:0px;
   top: 3095px;
   width: 42%;
+  max-height: 44
 
 }
 
@@ -421,7 +424,13 @@ abbr[title] {
 #vitae-content{
   width: 40%;
   padding: 1%;
-  background: white;
+  background: rgba(245,245,245,1);
+  background: -moz-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(245,245,245,1) 44%, rgba(145,232,66,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(245,245,245,1)), color-stop(44%, rgba(245,245,245,1)), color-stop(100%, rgba(145,232,66,1)));
+  background: -webkit-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(245,245,245,1) 44%, rgba(145,232,66,1) 100%);
+  background: -o-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(245,245,245,1) 44%, rgba(145,232,66,1) 100%);
+  background: -ms-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(245,245,245,1) 44%, rgba(145,232,66,1) 100%);
+  background: linear-gradient(to bottom, rgba(245,245,245,1) 0%, rgba(245,245,245,1) 44%, rgba(145,232,66,1) 100%);
   color: black;
 }
 
@@ -438,8 +447,25 @@ abbr[title] {
 }
 
 #vitae a{
-  color: #7AB317;
+  color: white;
 }
+
+#pacman{
+  position: absolute;
+  right: 300px;
+  top: 4100px;
+  width: 400px;
+  height: 250px;
+
+}
+
+#ghosts{
+  position: absolute;
+  right: 100px;
+  top: 3700px;
+}
+
+
 
 
 /*.imagem2{
