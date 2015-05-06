@@ -90,6 +90,10 @@ body {
   width: 40%;
   
 }
+#logo-principal img{
+  width: 250px;
+  height: 250px;
+}
 
 #mini-desc{
     /*padding-top: 300px;*/
