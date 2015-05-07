@@ -4,9 +4,9 @@ var map;
 
 function renderMap() {
   directionsDisplay = new google.maps.DirectionsRenderer();
-  var location = new google.maps.LatLng(-19.843063,-43.9384724);
+  var location = new google.maps.LatLng(-19.925988, -43.947799);
   var mapOptions = {
-    zoom: 17,
+    zoom: 16,
     center: location,
 	scrollwheel: false
   };

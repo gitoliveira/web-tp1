@@ -11,7 +11,9 @@
 html {
   	font-family: sans-serif;
   	-ms-text-size-adjust: 100%;
-  	-webkit-text-size-adjust: 100%;    
+  	-webkit-text-size-adjust: 100%;  
+    max-width: 1430px;
+    margin: 0 auto;  
 
 }
 
@@ -473,27 +475,29 @@ abbr[title] {
 #contato{
   clear:both;
   border-top: 5px solid #7AB317;
+
 }
 
 #mapa{
-  margin: auto;
+/*  margin: auto;
   width: 80%; 
   height: 500px; 
   border: 3px solid white;
-}
+*/}
 
-#right-map{
-  width: 56%;
-  float: right;
+#mapa{
+  width: 54%;
+  float:right;
   background: #7AB317;
+  height: 500px; 
   padding: 1%;
+
 }
 
 #left-map{
   border: 3px solid #7AB317;
   padding: 4%;
   width: 30%;
-  margin: 1%;
 
 }
 .parallax-div{
@@ -501,37 +505,18 @@ abbr[title] {
 }
 
 footer{
-  clear:both;
+  clear:both;  
   padding: 10px 5px;
-  height: 30px;
+  height: 45px;
   width: 100%;
   background-color: black;
   opacity: 0.85;
-  z-index: 10;
+  z-index: 10;  
   text-align: center;
   border-top: 3px solid white;
 
 }
 
-
-#myModal{
-  /*width: 500px;
-  height: 500px;
-*/}
-
-/*.imagem2{
-    -webkit-transform: rotate(15deg) scale(1.25, 0.5);
-    -moz-transform: rotate(15deg) scale(1.25, 0.5);
-    -ms-transform: rotate(15deg) scale(1.25, 0.5);
-    transform: rotate(15deg) scale(1.25, 0.5);
-
-	-moz-transform: scale(1.0) rotate(360deg) translateX(1px) translateY(1px) skewX(1deg) skewY(1deg);
-	-webkit-transform: scale(1.1) rotate(360deg) translateX(1px) translateY(1px) skewX(1deg) skewY(1deg);
-	-o-transform: scale(1.1) rotate(360deg) translateX(1px) translateY(1px) skewX(1deg) skewY(1deg);
-	-ms-transform: scale(1.1) rotate(360deg) translateX(1px) translateY(1px) skewX(1deg) skewY(1deg);
-	transform: scale(1.1) rotate(360deg) translateX(1px) translateY(1px) skewX(1deg) skewY(1deg);
-}
-*/
 
 
 
