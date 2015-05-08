@@ -517,7 +517,29 @@ footer{
 
 }
 
+.grande{
+  display: none;
+}
 
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.parallax-front {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(0);
+
+}
+.parallax-back{
+   transform: translateZ(-1px);
+}
 
 
 
