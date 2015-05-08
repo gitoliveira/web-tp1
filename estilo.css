@@ -571,7 +571,8 @@ footer{
 
 @media screen and (max-width: 800px) {
    #projects .proj{
-      width: 80%;
+      width: 90%;
+      margin: 0 auto;
       clear: both;
       padding: 1%;
   }
@@ -601,6 +602,7 @@ footer{
     #left-map{
       width: 80%;
       clear: both;
+      margin: 0 auto;
     }
     #vitae-content{
       width: 100%;
