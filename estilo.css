@@ -541,6 +541,74 @@ footer{
    transform: translateZ(-1px);
 }
 
+@media screen and (max-width: 1200px) {
+    .parallax-div{
+      display: none;    
+    }
+}
+
+@media screen and (max-width: 665px) {
+    #mini-desc{
+      clear: both;
+      width: 100%;
+    }
+    #logo-principal{
+      clear:both;    
+      width: 100%;
+    }
+    #menu ul li{
+      font-size: 23px;
+      padding: 2px;
+      padding: 5px;
+      width: 60%;
+    }
+    #menu ul{
+      padding: 0;
+    }
+    
+ }
+
+
+@media screen and (max-width: 800px) {
+   #projects .proj{
+      width: 80%;
+      clear: both;
+      padding: 1%;
+  }
+  #base-tetris{
+    display: none;
+  }
+
+}
+
+@media screen and (max-width:1152px) {
+   .flipper{
+      clear:both;  
+      width: 100%;
+    }
+    #t_autor{
+      clear:both;  
+      width: 100%;
+    }
+    #einsteinFoto{
+      display: none;
+    }
+    #mapa{
+      width: 100%;
+      clear: both;
+
+    }
+    #left-map{
+      width: 80%;
+      clear: both;
+    }
+    #vitae-content{
+      width: 100%;
+      clear: both;
+    }
+
+}
+
 
 
 
