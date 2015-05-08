@@ -585,8 +585,10 @@ footer{
 @media screen and (max-width:1152px) {
    .flipper{
       clear:both;  
-      width: 100%;
+      width: 90%;
+      margin: 0 auto;
     }
+
     #t_autor{
       clear:both;  
       width: 100%;
